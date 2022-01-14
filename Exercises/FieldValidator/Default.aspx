@@ -28,7 +28,7 @@
             <br />
             <br />
             Age<asp:TextBox ID="txtAge" runat="server"></asp:TextBox>
-            <asp:RangeValidator ID="RangeValidator1" runat="server" ControlToValidate="txtAge" ErrorMessage="Age is between 0 and 100 please" MaximumValue="100" MinimumValue="0"></asp:RangeValidator>
+            <asp:RangeValidator ID="RangeValidator1" runat="server" ControlToValidate="txtAge" ErrorMessage="Age is between 0 and 100 please" MaximumValue="100" MinimumValue="0" Type="Integer"></asp:RangeValidator>
             <br />
             <br />
             <asp:Button ID="btnSubmit" runat="server" Text="Submit" />
