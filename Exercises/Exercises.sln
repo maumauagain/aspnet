@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calendar", "Calendar\Calend
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PostBack", "PostBack\PostBack.csproj", "{D1749E30-BDA5-435F-A544-83373A0F93BC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nav", "Nav\Nav.csproj", "{9FED3DEC-DFED-42F6-A6EA-481D192AC1D9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{D1749E30-BDA5-435F-A544-83373A0F93BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D1749E30-BDA5-435F-A544-83373A0F93BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D1749E30-BDA5-435F-A544-83373A0F93BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FED3DEC-DFED-42F6-A6EA-481D192AC1D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FED3DEC-DFED-42F6-A6EA-481D192AC1D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FED3DEC-DFED-42F6-A6EA-481D192AC1D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FED3DEC-DFED-42F6-A6EA-481D192AC1D9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
