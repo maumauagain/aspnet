@@ -1,0 +1,36 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Main.master.cs" Inherits="TestMaster.Masters.Main" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+<%--    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>--%>
+    <style type="text/css">
+        .auto-style1 {
+            width: 181px;
+            height: 79px;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            ASP.NET Master Pages test<br />
+            <img alt="img" class="auto-style1" src="../Images/MI-6X_lockscreen_01.png" /><br />
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+
+            Made by: Amauri
+        </div>
+    </form>
+</body>
+</html>
