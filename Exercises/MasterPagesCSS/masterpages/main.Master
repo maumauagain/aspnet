@@ -1,0 +1,45 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="main.master.cs" Inherits="MasterPagesCSS.masterpages.main" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <link href="../styles/styles.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="conteneur">
+		
+		<div class="menu">
+			<ul class="menu-list">
+				<li><a href="">Web design</a></li> 
+				<li><a href="">Standard solution</a></li> 
+				<li><a href="">W3C validation</a></li> 
+				<li><a href="">OSWD design</a></li> 
+				<li><a href="">CSS and XHTML</a></li> 
+				<li><a href="">Blue</a></li> 
+				<li><a href="">Beautiful</a></li> 
+				<li><a href="">A link</a></li> 
+				<li><a href="">An other link</a></li> 
+			</ul>
+		</div>
+
+		<div class="header">
+			<span class="header-title">My soft green design</span><br />
+			<span class="header-title-two">A beautiful design</span>
+		</div>
+
+		<div class="centre">
+			<asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+		</div>
+
+		<div class="pied">
+			Design by <a href="http://nicolas.freezee.org" target="_BLANK">Nicolas Fafchamps</a>
+		</div>
+            
+        </div>
+    </form>
+</body>
+</html>
