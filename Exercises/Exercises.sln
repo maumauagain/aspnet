@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestMaster", "TestMaster\Te
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MasterPagesCSS", "MasterPagesCSS\MasterPagesCSS.csproj", "{99A29E04-F7B0-4FA2-9649-0DFB8C50D04B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataBinding", "DataBinding\DataBinding.csproj", "{7FE4C8D3-A10C-4FB8-B1BA-691E1A09BD55}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{99A29E04-F7B0-4FA2-9649-0DFB8C50D04B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{99A29E04-F7B0-4FA2-9649-0DFB8C50D04B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{99A29E04-F7B0-4FA2-9649-0DFB8C50D04B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7FE4C8D3-A10C-4FB8-B1BA-691E1A09BD55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FE4C8D3-A10C-4FB8-B1BA-691E1A09BD55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FE4C8D3-A10C-4FB8-B1BA-691E1A09BD55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FE4C8D3-A10C-4FB8-B1BA-691E1A09BD55}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
